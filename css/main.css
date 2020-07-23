@@ -15,4 +15,37 @@ body {
   box-sizing: border-box;
 }
 
+/* SCSS RGB */
+/* SCSS Gradient */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #edadc7;
+  color: white;
+  padding: 1rem;
+}
+.main-nav__title {
+  line-height: 2;
+}
+.main-nav__links {
+  display: flex;
+}
+.main-nav__links--button {
+  list-style: none;
+  padding: 0.5rem 1rem;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+  font-size: 2rem;
+}
+
+.main-header {
+  background-image: radial-gradient(#edadc7ff, #d199b6ff, #c493b0ff, #a68ba5ff);
+  height: 50vh;
+}
+
 /*# sourceMappingURL=main.css.map */
