@@ -4,75 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Puffer Planners</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d5cb8639f8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav class="main-nav">
-        <p class="main-nav__title">Puffer Planners</p>
-        <ul class="main-nav__links">
-            <li class="main-nav__links--button">Shop</li>
-            <li class="main-nav__links--button">About</li>
-            <li class="main-nav__links--button">Blog</li>
-            <li class="main-nav__links--button">Contact</li>
-        </ul>
-    </nav>
-    <header class="main-header">
-        
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#"><h2 class="nav-title">Puffer Planners</h2></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="ml-auto navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+        </div>
+      </nav>
+    <header>
+        <div class="jumbotron">
+            <div class="container">
+                <img src="images/Puffer_Planners_2020-removebg.png" alt="puffer planners">
+            </div>
+            <div><i class="fas fa-chevron-down"></i></div>
+        </div>
     </header>
     <main>
         <section class="features">
-            <div class="icon">
-                <div class="icon__img"></div>
-                <div class="icon__caption"></div>
-            </div>
-            <div class="icon">
-                <div class="icon__img"></div>
-                <div class="icon__caption"></div>
-            </div>
-            <div class="icon">
-                <div class="icon__img"></div>
-                <div class="icon__caption"></div>
-            </div>
-        </section>
-        <section class="features__planners">
-            <div class="features__planners--teacher">
-                <div class="features__planners--teacher-img"></div>
-                <div class="features__planners--teacher-list">
-                    <ul class="features__planners--teacher-ul">
-                        <li class="features__planners--teacher-listItems"></li>
-                        <li class="features__planners--teacher-listItems"></li>
-                        <li class="features__planners--teacher-listItems"></li>
-                    </ul>
+            <div class="container-fluid padding u-margin-bottom-sm">
+                <div class="row welcome text-center">
+                    <div class="col-12">
+                        <h1 class="display-4">Made with you in mind</h1>
+                    </div>
+                    <hr>
+                    <div class="col-12">
+                        <p class="lead">This is a short paragraph describing why Puffer Planners are amazing.</p>
+                    </div>
                 </div>
             </div>
-            <div class="features__planners--personal">
-                <div class="features__planners--personal-img"></div>
-                <div class="features__planners--personal-list">
-                    <ul class="features__planners--personal-ul">
-                        <li class="features__planners--personal-listItems"></li>
-                        <li class="features__planners--personal-listItems"></li>
-                        <li class="features__planners--personal-listItems"></li>
-                    </ul>
+            <hr class="container my-4">
+            <div class="container padding u-margin-top-md">
+                <div class="row text-center padding">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img class="icons img-fluid u-margin-bottom-sm" src="images/svg/svg/001-heart.svg" alt="heart">
+                        <h3 class="u-margin-bottom-md">Made with love</h3>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img class="icons img-fluid u-margin-bottom-sm" src="images/svg/svg/002-sports-and-competition.svg" alt="heart">
+                        <h3 class="u-margin-bottom-md">to help you reach your goals</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="icons img-fluid u-margin-bottom-sm" src="images/svg/svg/003-checklist.svg" alt="heart">
+                        <h3 class="u-margin-bottom-md">and get organized</h3>
+                    </div>
+                </div>
+                <hr class="container my-4">
+            </div>
+            <div class="container padding u-margin-top-md">
+                <div class="row padding u-margin-bottom-md">
+                    <div class="col-md-12 col-lg-6">
+                        <h2>Teacher Planners</h2>
+                        <ul>
+                            <li>12 months</li>
+                            <li>aug -july</li>
+                            <li>lesson planning pages</li>
+                            <a href="#"><button class="btn btn-secondary btn-lg">See More</button></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/teacher-planner-closeup.jpg" class="img-fluid planner-img" alt="teacher planner">
+                    </div>
+                </div>
+                <div class="row padding">
+                    <div class="col-lg-6">
+                        <img src="images/layout-month.jpg" class="img-fluid planner-img" alt="personal planner">
+                    </div>
+                    <div class="col-lg-6 text-right text-decoration-none">
+                        <h2>Personal Planners</h2>
+                        <ul>
+                            <li>12 months</li>
+                            <li>janurary through december</li>
+                            <li>family planning</li>
+                            <li>checklists</li>
+                            <a href="#"><button class="btn btn-secondary btn-lg">See More</button></a>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="about">
-            <div class="about__img">
-                <h2>Hi, I'm Stormye</h2>
-                <img src="" alt="">
-            </div>
-            <div class="about__text">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium id maxime aliquid velit optio amet. Aliquid commodi est quam sunt cum suscipit laborum, alias in!</p>
+        <section>
+            <div class="container padding">
+                <div class="row padding">
+                    <div class="col-lg-6">
+                        <h2>About Me!</h2>
+                        <img class="img-fluid planner-img" src="images/logo_image.jpg" alt="Stormye">
+                    </div>
+                    <div class="col-lg-6">
+                        <span>Hi, I'm Stormye!</span>
+                        <hr class="my-5">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis distinctio, recusandae mollitia doloremque quod et vero esse commodi ipsa unde quasi aliquam? Quaerat laboriosam, sunt debitis adipisci maiores at ad. Non ducimus autem placeat illum ad deserunt facere nobis totam doloribus libero, incidunt dignissimos omnis doloremque. Nihil, doloribus? Necessitatibus, iste!</p>
+                    </div>
+                </div>
             </div>
         </section>
-        <footer class="main-footer">
-            <div class="social">
-                <div class="social__icon">Facebook icon link</div>
-                <div class="social__icon">Personal Logo link</div>
-                <div class="social__icon">Insta icon link</div>
-            </div>
-        </footer>
+       
     </main>
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

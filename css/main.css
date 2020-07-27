@@ -6,46 +6,78 @@
   box-sizing: inherit;
 }
 
-html {
-  font-size: 62.5%;
-  /* to help calculate rem */
-}
-
 body {
   box-sizing: border-box;
+  background-color: #eee;
 }
 
 /* SCSS RGB */
 /* SCSS Gradient */
-.main-nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: #edadc7;
-  color: white;
-  padding: 1rem;
+.u-margin-bottom-sm {
+  margin-bottom: 2rem;
 }
-.main-nav__title {
-  line-height: 2;
+
+.u-margin-bottom-md {
+  margin-bottom: 6rem;
 }
-.main-nav__links {
-  display: flex;
+
+.u-margin-bottom-lg {
+  margin-bottom: 10rem;
 }
-.main-nav__links--button {
-  list-style: none;
-  padding: 0.5rem 1rem;
+
+.u-margin-top-md {
+  margin-top: 6rem;
+}
+
+.nav-title {
+  font-weight: 400;
+  letter-spacing: 0.25rem;
 }
 
 body {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
   line-height: 1.5;
   color: black;
   font-size: 2rem;
 }
 
-.main-header {
-  background-image: radial-gradient(#edadc7ff, #d199b6ff, #c493b0ff, #a68ba5ff);
+.jumbotron {
+  background-image: url(../../images/emma-matthews-digital-content-production-X6M1Ke1o9yI-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 50vh;
+  position: relative;
+  margin-bottom: 10rem;
+}
+.jumbotron img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  transform: translate(-50%, -50%);
+  max-width: 900px;
+}
+.jumbotron .fa-chevron-down {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+
+.icons {
+  max-width: 200px;
+  width: 75%;
+}
+
+.planner-img {
+  background-color: white;
+  border: white 20px solid;
 }
 
 /*# sourceMappingURL=main.css.map */

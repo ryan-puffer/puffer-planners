@@ -1,18 +1,4 @@
-.main-nav {
-	display: flex;
-	justify-content: space-between;
-	background-color: $nadeshiko-pink;
-	color: white;
-	padding: 1rem;
-	&__title {
-		line-height: 2;
-	}
-	&__links {
-		display: flex;
-
-		&--button {
-			list-style: none;
-			padding: .5rem 1rem;
-		}
-	}
+.nav-title {
+	font-weight: 400;
+	letter-spacing: .25rem;
 }
