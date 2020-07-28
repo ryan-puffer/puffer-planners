@@ -242,4 +242,39 @@ body {
   background-image: url(../../images/meetings-this-week-closeup.jpg);
 }
 
+@media screen and (max-width: 900px) {
+  .image-gallery {
+    grid-template-areas: "img-1 img-1 img-2 img-2" "img-1 img-1 img-3 img-3" "img-4 img-4 img-5 img-5" "img-6 img-7 img-7 img-7" "img-8 img-8 img-8 img-8";
+  }
+
+  .img-gallery a {
+    height: 20rem;
+  }
+
+  .img-1 {
+    min-height: 41.5rem;
+  }
+
+  .img-6 {
+    min-height: 20rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .image-gallery {
+    grid-template-areas: "img-1 img-1 img-1 img-1" "img-2 img-2 img-2 img-2" "img-3 img-3 img-3 img-3" "img-4 img-4 img-4 img-4" "img-5 img-5 img-5 img-5" "img-6 img-6 img-6 img-6" "img-7 img-7 img-7 img-7" "img-8 img-8 img-8 img-8";
+  }
+
+  .img-gallery a {
+    height: 20rem;
+  }
+
+  .img-1 {
+    min-height: 41.5rem;
+  }
+
+  .img-6 {
+    min-height: 20rem;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
