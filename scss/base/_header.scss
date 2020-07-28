@@ -4,24 +4,48 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 50vh;
-    position: relative;
-    margin-bottom: 10rem;
+	position: relative;
+	margin-bottom: 10rem;
 	img {
 		position: absolute;
 		top: 50%;
-        left: 50%;
-        width: 90%;
+		left: 50%;
+		width: 90%;
 		transform: translate(-50%, -50%);
 		max-width: 900px;
-    }
-    .fa-chevron-down {
-        position: absolute;
-        bottom: 10%;
-        left: 50%;
-        transform: translateY(-50%);
-    }
+	}
+	.fa-chevron-down {
+		position: absolute;
+		bottom: 10%;
+		left: 50%;
+		transform: translateY(-50%);
+	}
 }
 
 .navbar-brand {
 	padding-top: 10px;
+}
+
+.jumbotron-shop {
+	background-image: url(../../images/emma-matthews-digital-content-production-X6M1Ke1o9yI-unsplash.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	position: relative;
+	margin-bottom: 4rem;
+	img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 90%;
+		transform: translate(-50%, -50%);
+		max-width: 900px;
+	}
+	.fa-chevron-down {
+		position: absolute;
+		bottom: 10%;
+		left: 50%;
+		transform: translateY(-50%);
+	}
 }
