@@ -46,18 +46,18 @@ body {
 }
 
 .etsy {
-  border-radius: 2px;
+  border-radius: 6px;
   background-image: linear-gradient(to bottom right, #df7419, #c03e0a);
   width: 150px;
   text-align: center;
-  padding: 12px 0;
+  padding: 8px 0;
   margin: 12px;
   font-weight: 100;
-  font-family: Alegreya;
+  font-family: sans-serif;
   color: white;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
   font-size: 0.6em;
-  box-shadow: 0 1px 1px rgba(128, 128, 128, 0.6);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+  border: none;
 }
 
 body {
@@ -81,7 +81,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url(../../images/emma-matthews-digital-content-production-X6M1Ke1o9yI-unsplash.jpg);
+  background-image: url(../../images/Watercolorbackground2020.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,7 +109,7 @@ body {
 }
 
 .jumbotron-shop {
-  background-image: url(../../images/emma-matthews-digital-content-production-X6M1Ke1o9yI-unsplash.jpg);
+  background-image: url(../../images/Watercolorbackground2020.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -132,6 +132,10 @@ body {
   transform: translateY(-50%);
 }
 
+nav .nav-item {
+  padding: 0 3rem;
+}
+
 .icons {
   max-width: 200px;
   width: 75%;
@@ -142,8 +146,12 @@ body {
   border: white 10px solid;
 }
 
-.container {
-  width: 100%;
+#shop {
+  margin-bottom: 8rem;
+}
+
+.container-gallery {
+  width: 70%;
   max-width: 120rem;
   margin: auto;
   padding: 0 1.5rem;
@@ -169,6 +177,8 @@ body {
   justify-content: center;
   text-decoration: none;
   color: white;
+  border: 2px solid white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
 
 .image-gallery a ion-icon {
@@ -258,6 +268,10 @@ body {
   .img-6 {
     min-height: 20rem;
   }
+
+  .container-gallery {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 600px) {
   .image-gallery {
@@ -274,6 +288,10 @@ body {
 
   .img-6 {
     min-height: 20rem;
+  }
+
+  .container-gallery {
+    width: 100%;
   }
 }
 

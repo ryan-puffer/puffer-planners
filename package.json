@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ryan-puffer/puffer-planners/issues"
   },
-  "homepage": "https://github.com/ryan-puffer/puffer-planners#readme"
+  "homepage": "https://github.com/ryan-puffer/puffer-planners#readme",
+  "dependencies": {
+    "glightbox": "^3.0.2"
+  }
 }
