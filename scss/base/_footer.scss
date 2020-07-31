@@ -2,9 +2,14 @@
 	font-size: 1rem;
 }
 
-.secondary-logo {
-	background-image: radial-gradient(pink, white);
-	border-radius: 50%;
-	height: 20rem;
-	width: 20rem;
+.social,
+.social:link,
+.social:visited {
+	text-decoration: none;
+	color: black;
+	padding: 0 .25rem;
+	transition: .2s all;
+	&:hover {
+	transform: scale(1.1);
+	}
 }

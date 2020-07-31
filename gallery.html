@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d5cb8639f8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="js/glightbox/css/glightbox.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -21,47 +22,47 @@
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="shop.html">Shop</a>
+                  <a class="nav-link" href="index.html#shop">Shop</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="gallery.html">Gallery</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
         </div>
       </nav>
     <header>
-        <div class="jumbotron-shop">
-            <div><i class="fas fa-chevron-down" style="color: white"></i></div>
+        <div class="jumbotron">
+            <div class="chevron"><i class="fas fa-chevron-down" style="color: white"></i></div>
         </div>
     </header>
     <main>
         <div class="container-gallery">
             <div class="image-gallery">
-                <a href="images/cover-vertical.jpg" class="img-1">
+                <a href="images/cover-vertical.jpg" data-fslightbox class="img-1">
                     <ion-icon name="expand-outline"></ion-icon>
                 </a>
-                <a href="images/goals-closeup-hor.jpg" class="img-2">
+                <a href="images/goals-closeup-hor.jpg" data-fslightbox class="img-2">
                     <ion-icon name="expand-outline"></ion-icon>
                 </a>
-                <a href="images/layout-month-overview.jpg" class="img-3">
+                <a href="images/layout-month-overview.jpg" data-fslightbox class="img-3">
                     <ion-icon name="expand-outline"></ion-icon>
                 </a>
-                <a href="images/layout-parent.jpg" class="img-4">
+                <a href="images/layout-parent.jpg" data-fslightbox class="img-4">
                     <ion-icon name="expand-outline"></ion-icon>
                 </a>
-                <a href="images/layout-seating.jp.jpg" class="img-5">
+                <a href="images/layout-seating.jp.jpg" data-fslightbox class="img-5">
                     <ion-icon name="expand-outline"></ion-icon>
                 </a>
-                <a href="images/layout-week-closeup.jpg" class="img-6">
+                <a href="images/layout-week-closeup.jpg" data-fslightbox class="img-6">
                     <ion-icon name="expand-outline"></ion-icon>
                 </a>
-                <a href="images/teacher-planner-closeup.jpg" class="img-7">
+                <a href="images/teacher-planner-closeup.jpg" data-fslightbox class="img-7">
                     <ion-icon name="expand-outline"></ion-icon>
                 </a>
-                <a href="images/meetings-this-week-closeup.jpg" class="img-8">
+                <a href="images/meetings-this-week-closeup.jpg" data-fslightbox class="img-8">
                     <ion-icon name="expand-outline"></ion-icon>
                 </a>
             </div>
@@ -73,10 +74,10 @@
                
                 
                 <div class="col-sm-12">
-                    <h3>Social</h3>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-facebook"></i>
+                    <h3 id="contact">Social</h3>
+                    <a href="https://twitter.com/mrspuffertx?lang=en"><i class="fab fa-twitter social"></i></a>
+                    <a href="https://www.instagram.com/pufferplanners/"><i class="fab fa-instagram social"></i></a>
+                    <a href="https://www.facebook.com/Puffer-Planners-324724741781913/"><i class="fab fa-facebook social"></i></a>
                 </div>
             </div>
             <div class="row pb-3">
@@ -87,5 +88,9 @@
         </div>
     </footer>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/fslightbox.js"></script>
     </body>
     </html>
